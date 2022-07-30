@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <groups>
+  <run>
+  <include name="testThis"></include>
+  </run>
+  </groups>
+  
+    <classes>
+      <class name="IMPTopics.helperClass"/>
+      <class name="testNG.sample"/>
+      <class name="IMPTopics.demo"/>
+      <class name="IMPTopics.testCaseClass"/>
+      <class name="testNG.detaProviderUse"/>
+      <class name="testNG.demo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
